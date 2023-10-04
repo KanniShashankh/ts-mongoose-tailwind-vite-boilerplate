@@ -1,0 +1,13 @@
+{
+  "name": "ts-mongoose-tailwind-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd frontend && pnpm install && cd ../backend && pnpm install && cd ..",
+    "start": "cd frontend && npm start && cd ../backend && npm start && cd .."
+  },
+  "author": "",
+  "license": "ISC"
+}
